@@ -1,0 +1,13 @@
+h3 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.5;
+
+    margin-bottom: 30px;
+}
+
+p, li {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.45;
+}

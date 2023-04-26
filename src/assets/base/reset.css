@@ -1,0 +1,16 @@
+:where(html,body,form,div,input,button,span,p,h3,ul,li) {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+:where(input,select,textarea,button) {
+    outline: 0;
+    border: 0;
+    box-shadow: none;
+    appearance: none;
+}

@@ -1,0 +1,37 @@
+.modal {
+  
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+
+  background-color: #fff;
+  border-radius: 6px;
+  box-shadow: 0 0 7px 3px rgba(0,0,0,0.19);
+
+  padding: 24px 16px;
+  text-align: center;
+  position: relative;
+
+  transition: filter 800ms ease, height 500ms ease-in-out;
+
+}
+
+.modal.is-loading {
+  filter: blur(8px) grayscale(1);
+}
+
+.modal ul {
+  max-height: 300px;
+  overflow: auto;
+}
+
+.modal li {
+  list-style: none;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background: #73c6f3;
+  padding: 8px;
+  margin-bottom: 3px;
+  border-radius: 4px;
+}
